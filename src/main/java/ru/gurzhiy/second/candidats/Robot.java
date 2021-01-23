@@ -3,8 +3,10 @@ package ru.gurzhiy.second.candidats;
 import ru.gurzhiy.second.Utils;
 import ru.gurzhiy.second.obstacles.Obstacle;
 
+/**
+ * Robot class
+ */
 public class Robot implements Candidate {
-
 
     private Utils utils = new Utils();
     private double maxHeightInCentimeters;

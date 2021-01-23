@@ -8,6 +8,9 @@ import ru.gurzhiy.second.obstacles.Obstacle;
 import ru.gurzhiy.second.obstacles.Wall;
 
 
+/**
+ * Utility class which handle overpass login printing
+ */
 public class Utils {
 
     public boolean overpass(Obstacle obstacle, Candidate candidate){
