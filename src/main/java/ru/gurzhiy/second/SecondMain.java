@@ -9,6 +9,9 @@ import ru.gurzhiy.second.obstacles.Distance;
 import ru.gurzhiy.second.obstacles.Obstacle;
 import ru.gurzhiy.second.obstacles.Wall;
 
+/**
+ * Main class for out checks
+ */
 public class SecondMain {
 
     public static void main(String[] args) {

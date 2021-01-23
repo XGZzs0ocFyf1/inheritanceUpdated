@@ -1,6 +1,10 @@
 package ru.gurzhiy.second.obstacles;
 
+/**
+ * distance
+ */
 public class Distance implements Obstacle{
+
     private double lengthInMeters;
 
     public Distance(double lengthInMeters) {

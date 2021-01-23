@@ -1,5 +1,9 @@
 package ru.gurzhiy.second.obstacles;
 
+
+/**
+ * wall
+ */
 public class Wall implements Obstacle{
 
     private double height;
@@ -16,4 +20,5 @@ public class Wall implements Obstacle{
     public boolean pass(double passValue) {
         return passValue >= height;
     }
+
 }

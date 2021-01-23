@@ -3,6 +3,9 @@ package ru.gurzhiy.second.candidats;
 import ru.gurzhiy.second.Utils;
 import ru.gurzhiy.second.obstacles.Obstacle;
 
+/**
+ * Human class
+ */
 public class Human implements Candidate {
 
     private Utils utils = new Utils();

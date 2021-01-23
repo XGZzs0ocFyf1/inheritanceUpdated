@@ -3,10 +3,12 @@ package ru.gurzhiy.second.candidats;
 import ru.gurzhiy.second.Utils;
 import ru.gurzhiy.second.obstacles.Obstacle;
 
+/**
+ * Cat is participant of the competition too
+ */
 public class Cat implements Candidate {
 
     private Utils utils = new Utils();
-
     private double maxHeightInCentimeters;
     private double maxDistanceInMeters;
     private String identity = "Котик";
